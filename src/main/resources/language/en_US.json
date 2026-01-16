@@ -1,0 +1,3 @@
+{
+  "template.on_enable": "Hello! {%0}"
+}

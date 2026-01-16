@@ -1,0 +1,7 @@
+name: Akashic
+main: kim.present.pnx.akashic.Akashic
+version: "1.0.0"
+api: [ "2.0.0" ]
+load: POSTWORLD
+author: PresentKim
+description: "A centralized database provider utilizing JetBrains Exposed and HikariCP for high-performance SQL management"
