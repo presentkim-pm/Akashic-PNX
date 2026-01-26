@@ -1,0 +1,25 @@
+# ==========================================
+#         Akashic Records Configuration
+# ==========================================
+
+database:
+  # Database connection info
+  host: "localhost"
+  port: 3306
+
+  # Database schema name to use
+  schema: "akashic"
+
+  # Connection account
+  username: "root"
+  password: "password"
+
+pool:
+  # HikariCP connection pull size
+  maximum-size: 10
+
+  # Minimum number of idle connections
+  minimum-idle: 5
+
+  # Connection timeout (milliseconds)
+  connection-timeout: 30000

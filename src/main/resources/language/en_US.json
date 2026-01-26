@@ -1,3 +1,7 @@
 {
-  "template.on_enable": "Hello! {%0}"
+  "akashic.init": "Initializing Akashic system...",
+  "akashic.db.connected": "Akashic Records successfully connected to the database.",
+  "akashic.db.failed": "Database connection failed. Disabling plugin.",
+  "akashic.db.closing": "Safely closing database connection...",
+  "akashic.db.error": "Fatal error during DB connection:"
 }
