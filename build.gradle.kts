@@ -23,6 +23,12 @@ repositories {
 dependencies {
     compileOnly("org.powernukkitx:server:2.0.0-SNAPSHOT")
     compileOnly(kotlin("stdlib"))
+
+    implementation("org.jetbrains.exposed:exposed-core:0.61.0")
+    implementation("org.jetbrains.exposed:exposed-dao:0.61.0")
+    implementation("org.jetbrains.exposed:exposed-jdbc:0.61.0")
+    implementation("com.zaxxer:HikariCP:6.0.0")
+    implementation("org.mariadb.jdbc:mariadb-java-client:3.4.1")
 }
 
 kotlin {
